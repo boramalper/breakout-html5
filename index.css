@@ -1,0 +1,16 @@
+/* To disable the "bounce" effect when scrolling the screen */
+body, html {
+    position: fixed;
+    -webkit-overflow-scrolling: touch;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#canvas {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+}
