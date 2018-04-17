@@ -151,7 +151,7 @@ function randomBall() {
 function initializeWorld() {
     randomBall();
     world.racketCenter = width / 2;
-    world.racketWidth = ensureEvenInt(width * 0.2);
+    world.racketWidth = ensureEvenInt(width * 0.3);
 
     const brickWidthGapRatio = 10;
 
